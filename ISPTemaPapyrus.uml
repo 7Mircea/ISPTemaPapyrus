@@ -35,7 +35,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_KnfCoHJgEeqS0_Pt5NnDSw" name="Client"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_MFZLEHJgEeqS0_Pt5NnDSw" name="Sofer"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_q4LQ4HJiEeqS0_Pt5NnDSw" memberEnd="_q4NtIHJiEeqS0_Pt5NnDSw _q4PiUHJiEeqS0_Pt5NnDSw">
+  <packagedElement xmi:type="uml:Association" xmi:id="_q4LQ4HJiEeqS0_Pt5NnDSw" name="logare" memberEnd="_q4NtIHJiEeqS0_Pt5NnDSw _q4PiUHJiEeqS0_Pt5NnDSw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_q4MfAHJiEeqS0_Pt5NnDSw" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_q4MfAXJiEeqS0_Pt5NnDSw" key="nature" value="UML_Nature"/>
     </eAnnotations>
@@ -230,6 +230,58 @@
   <packagedElement xmi:type="uml:Enumeration" xmi:id="_RUS_cHKNEeqLTOJuJzOoUA" name="StariSofer">
     <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_ScSiQHKNEeqLTOJuJzOoUA" name="Disponibil"/>
     <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_Tx0KwHKNEeqLTOJuJzOoUA" name="Indisponibil"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_mBIAkHKdEeqLTOJuJzOoUA" name="Activity26" node="_ulZHsHKdEeqLTOJuJzOoUA _D94IMHKeEeqLTOJuJzOoUA _StySMHKeEeqLTOJuJzOoUA _qlPPgHKeEeqLTOJuJzOoUA _zX-QcHKeEeqLTOJuJzOoUA _9qGnkHKeEeqLTOJuJzOoUA _vbjBsHKfEeqLTOJuJzOoUA _588j4HKfEeqLTOJuJzOoUA _BDH4MHKnEeqLTOJuJzOoUA" group="_owETEHKdEeqLTOJuJzOoUA _xm6_AHKdEeqLTOJuJzOoUA">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Y46XsHKeEeqLTOJuJzOoUA" target="_StySMHKeEeqLTOJuJzOoUA" source="_D94IMHKeEeqLTOJuJzOoUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_wu7KkHKeEeqLTOJuJzOoUA" target="_qlPPgHKeEeqLTOJuJzOoUA" source="_StySMHKeEeqLTOJuJzOoUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BnYVcHKfEeqLTOJuJzOoUA" inPartition="_xm6_AHKdEeqLTOJuJzOoUA" target="_9qGnkHKeEeqLTOJuJzOoUA" source="_zX-QcHKeEeqLTOJuJzOoUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1yri4HKfEeqLTOJuJzOoUA" inPartition="_xm6_AHKdEeqLTOJuJzOoUA" target="_vbjBsHKfEeqLTOJuJzOoUA" source="_9qGnkHKeEeqLTOJuJzOoUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PsCtkHKgEeqLTOJuJzOoUA" target="_zX-QcHKeEeqLTOJuJzOoUA" source="_588j4HKfEeqLTOJuJzOoUA">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_uRwD4HKmEeqLTOJuJzOoUA">
+        <language>Natural language</language>
+        <body>introdus in 24h&#xD;
+</body>
+      </guard>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_XijW0HKgEeqLTOJuJzOoUA" inPartition="_owETEHKdEeqLTOJuJzOoUA" target="_588j4HKfEeqLTOJuJzOoUA" source="_qlPPgHKeEeqLTOJuJzOoUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d1cRMHKgEeqLTOJuJzOoUA" inPartition="_owETEHKdEeqLTOJuJzOoUA" target="_BDH4MHKnEeqLTOJuJzOoUA" source="_588j4HKfEeqLTOJuJzOoUA">
+      <guard xmi:type="uml:OpaqueExpression" xmi:id="_12eZkHKmEeqLTOJuJzOoUA">
+        <language>Natural language</language>
+        <body>Nu a fost introdus in 24h&#xD;
+</body>
+      </guard>
+    </edge>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_MdK5oHKnEeqLTOJuJzOoUA" inPartition="_owETEHKdEeqLTOJuJzOoUA" target="_D94IMHKeEeqLTOJuJzOoUA" source="_BDH4MHKnEeqLTOJuJzOoUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_YW2dYHKnEeqLTOJuJzOoUA" inPartition="_owETEHKdEeqLTOJuJzOoUA" target="_BDH4MHKnEeqLTOJuJzOoUA" source="_ulZHsHKdEeqLTOJuJzOoUA"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_owETEHKdEeqLTOJuJzOoUA" name="Client" node="_ulZHsHKdEeqLTOJuJzOoUA _D94IMHKeEeqLTOJuJzOoUA _qlPPgHKeEeqLTOJuJzOoUA _588j4HKfEeqLTOJuJzOoUA _BDH4MHKnEeqLTOJuJzOoUA" edge="_XijW0HKgEeqLTOJuJzOoUA _MdK5oHKnEeqLTOJuJzOoUA _d1cRMHKgEeqLTOJuJzOoUA _YW2dYHKnEeqLTOJuJzOoUA"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_xm6_AHKdEeqLTOJuJzOoUA" name="RideSharingApp" node="_StySMHKeEeqLTOJuJzOoUA _zX-QcHKeEeqLTOJuJzOoUA _9qGnkHKeEeqLTOJuJzOoUA _vbjBsHKfEeqLTOJuJzOoUA" represents="_DbQFcHJgEeqS0_Pt5NnDSw" edge="_BnYVcHKfEeqLTOJuJzOoUA _1yri4HKfEeqLTOJuJzOoUA"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_ulZHsHKdEeqLTOJuJzOoUA" name="NodInitial" outgoing="_YW2dYHKnEeqLTOJuJzOoUA" inPartition="_owETEHKdEeqLTOJuJzOoUA"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_D94IMHKeEeqLTOJuJzOoUA" name="CompletareFormular" incoming="_MdK5oHKnEeqLTOJuJzOoUA" outgoing="_Y46XsHKeEeqLTOJuJzOoUA" inPartition="_owETEHKdEeqLTOJuJzOoUA"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_StySMHKeEeqLTOJuJzOoUA" name="GenereazaCodVerificareMail" incoming="_Y46XsHKeEeqLTOJuJzOoUA" outgoing="_wu7KkHKeEeqLTOJuJzOoUA" inPartition="_xm6_AHKdEeqLTOJuJzOoUA"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_qlPPgHKeEeqLTOJuJzOoUA" name="IntroduceCodVerificareMail" incoming="_wu7KkHKeEeqLTOJuJzOoUA" outgoing="_XijW0HKgEeqLTOJuJzOoUA" inPartition="_owETEHKdEeqLTOJuJzOoUA"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_zX-QcHKeEeqLTOJuJzOoUA" name="ComparaCodTrimisCuCodPrimit" incoming="_PsCtkHKgEeqLTOJuJzOoUA" outgoing="_BnYVcHKfEeqLTOJuJzOoUA" inPartition="_xm6_AHKdEeqLTOJuJzOoUA"/>
+    <node xmi:type="uml:CreateObjectAction" xmi:id="_9qGnkHKeEeqLTOJuJzOoUA" name="SalveazaInBazaDeDate" incoming="_BnYVcHKfEeqLTOJuJzOoUA" outgoing="_1yri4HKfEeqLTOJuJzOoUA" inPartition="_xm6_AHKdEeqLTOJuJzOoUA"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_vbjBsHKfEeqLTOJuJzOoUA" name="NodFinal" incoming="_1yri4HKfEeqLTOJuJzOoUA" inPartition="_xm6_AHKdEeqLTOJuJzOoUA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_588j4HKfEeqLTOJuJzOoUA" incoming="_XijW0HKgEeqLTOJuJzOoUA" outgoing="_PsCtkHKgEeqLTOJuJzOoUA _d1cRMHKgEeqLTOJuJzOoUA" inPartition="_owETEHKdEeqLTOJuJzOoUA"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_BDH4MHKnEeqLTOJuJzOoUA" incoming="_d1cRMHKgEeqLTOJuJzOoUA _YW2dYHKnEeqLTOJuJzOoUA" outgoing="_MdK5oHKnEeqLTOJuJzOoUA" inPartition="_owETEHKdEeqLTOJuJzOoUA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_xDKqUHKgEeqLTOJuJzOoUA" name="Interaction27">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_MBpC8HKhEeqLTOJuJzOoUA" name="Client" represents="_q4PiUHJiEeqS0_Pt5NnDSw" coveredBy="_eHXAQHKjEeqLTOJuJzOoUA"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Qf5-AHKhEeqLTOJuJzOoUA" name="CreareCont" represents="_rtDDYnJiEeqS0_Pt5NnDSw" coveredBy="_eHXAQXKjEeqLTOJuJzOoUA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eHXAQHKjEeqLTOJuJzOoUA" name="Message4SendEvent" covered="_MBpC8HKhEeqLTOJuJzOoUA" message="_eHWZMHKjEeqLTOJuJzOoUA"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_eHXAQXKjEeqLTOJuJzOoUA" name="Message4ReceiveEvent" covered="_Qf5-AHKhEeqLTOJuJzOoUA" message="_eHWZMHKjEeqLTOJuJzOoUA"/>
+    <message xmi:type="uml:Message" xmi:id="_eHWZMHKjEeqLTOJuJzOoUA" name="IntroduceDate" messageSort="asynchCall" receiveEvent="_eHXAQXKjEeqLTOJuJzOoUA" sendEvent="_eHXAQHKjEeqLTOJuJzOoUA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_dEQVwHKpEeqLTOJuJzOoUA" name="Activity28" node="_o33GsHKpEeqLTOJuJzOoUA _up4vsHKpEeqLTOJuJzOoUA _8enq4HKpEeqLTOJuJzOoUA _H1omcHKqEeqLTOJuJzOoUA _KbxiQHKqEeqLTOJuJzOoUA" group="_gOT28HKpEeqLTOJuJzOoUA _i2n9AHKpEeqLTOJuJzOoUA">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5kXgQHKpEeqLTOJuJzOoUA" inPartition="_gOT28HKpEeqLTOJuJzOoUA" target="_up4vsHKpEeqLTOJuJzOoUA" source="_o33GsHKpEeqLTOJuJzOoUA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_AeUaoHKqEeqLTOJuJzOoUA" target="_8enq4HKpEeqLTOJuJzOoUA" source="_up4vsHKpEeqLTOJuJzOoUA"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_gOT28HKpEeqLTOJuJzOoUA" name="Client" node="_o33GsHKpEeqLTOJuJzOoUA _up4vsHKpEeqLTOJuJzOoUA" represents="_KnfCoHJgEeqS0_Pt5NnDSw" edge="_5kXgQHKpEeqLTOJuJzOoUA"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_i2n9AHKpEeqLTOJuJzOoUA" name="RideSharingApp" node="_8enq4HKpEeqLTOJuJzOoUA _H1omcHKqEeqLTOJuJzOoUA _KbxiQHKqEeqLTOJuJzOoUA" represents="_DbQFcHJgEeqS0_Pt5NnDSw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_o33GsHKpEeqLTOJuJzOoUA" name="NotInitial" outgoing="_5kXgQHKpEeqLTOJuJzOoUA" inPartition="_gOT28HKpEeqLTOJuJzOoUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_up4vsHKpEeqLTOJuJzOoUA" name="CompletareFormular" incoming="_5kXgQHKpEeqLTOJuJzOoUA" outgoing="_AeUaoHKqEeqLTOJuJzOoUA" inPartition="_gOT28HKpEeqLTOJuJzOoUA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_8enq4HKpEeqLTOJuJzOoUA" name="GenerareCodVerificare" incoming="_AeUaoHKqEeqLTOJuJzOoUA" inPartition="_i2n9AHKpEeqLTOJuJzOoUA"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_H1omcHKqEeqLTOJuJzOoUA" name="NodFinal" inPartition="_i2n9AHKpEeqLTOJuJzOoUA"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_KbxiQHKqEeqLTOJuJzOoUA" name="DecisionNode9" inPartition="_i2n9AHKpEeqLTOJuJzOoUA"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_lA1bgHKNEeqLTOJuJzOoUA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lA5F4HKNEeqLTOJuJzOoUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
