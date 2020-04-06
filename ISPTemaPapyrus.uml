@@ -7,7 +7,7 @@
     <group xmi:type="uml:ActivityPartition" xmi:id="_1kWOwHJZEeqS0_Pt5NnDSw" name="ActivityPartition1"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_DbQFcHJgEeqS0_Pt5NnDSw" name="RideSharing">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_YIvBIHJgEeqS0_Pt5NnDSw" name="Login">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_YIvBIHJgEeqS0_Pt5NnDSw" name="Login/Logout">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_-vWsIHJhEeqS0_Pt5NnDSw" name="ExtensionPoint2"/>
       <include xmi:type="uml:Include" xmi:id="_3bEmMHJhEeqS0_Pt5NnDSw" addition="_0rh2wHJhEeqS0_Pt5NnDSw"/>
     </packagedElement>
@@ -175,6 +175,9 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="_iXXbsHKJEeqLTOJuJzOoUA" name="setKmParcursi"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_mLhQgHKOEeqLTOJuJzOoUA" name="setPretTotal"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_ZEawAHKREeqLTOJuJzOoUA" name="setStareComanda"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_nwGEoHdPEeqsZsI2-2gwyw" name="setClient"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Dw1LgHdQEeqsZsI2-2gwyw" name="getAdresaPlecare"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_FbYBwHdQEeqsZsI2-2gwyw" name="getDestinatie"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_bqBPYHKIEeqLTOJuJzOoUA" name="Persoana">
     <ownedOperation xmi:type="uml:Operation" xmi:id="_2YYIYHKIEeqLTOJuJzOoUA" name="getNume"/>
